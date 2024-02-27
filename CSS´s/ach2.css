@@ -1,0 +1,368 @@
+/* C O M M O N */
+
+
+/* H O M E */
+
+
+/* ------ body ------ */
+
+body {
+    background-color: #fbfeb2;
+}
+
+body {
+    background-image: url("../bin/w_2.png");
+    background-repeat: repeat;
+    background-color: #cccccc;
+    width: 400;
+    height: 225;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ------ nav bar ------ */
+
+ul.nav {
+    padding-left: 0px;
+    background-color: #bee893;
+    text-align: center;
+}
+
+ul.nav>li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+ul.nav>li:hover {
+    background-color: #74e0aa;
+}
+
+ul.nav>li>a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav {
+    border: 2px solid green;
+    border-radius: 15px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+nav:link {
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+.dropdown-content p a {
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content p:hover {
+    border: 2px solid green;
+    border-radius: 25px;
+    background-color: #74e0aa;
+}
+
+.dropdown-content:link {
+    text-decoration: none;
+}
+
+
+/* ------ feed ------ */
+
+.feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feed2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: #dbbf9e;
+    border: 75px #dbbf9e;
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px;
+    margin: 25px;
+    width: 250px;
+    height: 75px;
+}
+
+.card1 {
+    border: 2px solid green;
+    border-radius: 25px;
+    background-color: #74e0aa;
+    padding: 8px;
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*Añadido*/
+
+.card2 {
+    border: 2px solid green;
+    border-radius: 25px;
+    background-color: #dbbf9e;
+    border: 75px #dbbf9e;
+    padding: 8px;
+    margin: 25px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    width: 500px;
+    height: 220px;
+}
+
+.card3 {
+    background-color: blur(30px);
+    padding: 8px;
+    margin: 25px;
+    display: flex;
+}
+
+.card3>img {
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: #74e0aa;
+}
+
+.card1>p {
+    padding: 2px;
+    margin: 5px;
+    text-align: center;
+}
+
+.card1>img {
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: #74e0aa;
+}
+
+.transparent background-color {
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: #cc33ff;
+    opacity: 0.9;
+}
+
+
+/* M U S E U M */
+
+.museo>a:link:visited,
+.museo>a:link {
+    text-decoration: none;
+}
+
+.fotos:hover {
+    transform: scale(1.2);
+}
+
+
+/* ------ tables ------ */
+
+.tab table,
+th,
+td {
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: #74e0aa;
+}
+
+.tab img {
+    width: 150px;
+    height: auto;
+}
+
+.tab th,
+td {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tab tr {
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: #74e0aa;
+}
+
+.common {
+    background-color: rgb(195, 255, 137);
+}
+
+
+/*Añadido*/
+
+.uncommon {
+    background-color: #FCF950;
+}
+
+.veryrare {
+    background-color: rgb(255, 118, 118);
+}
+
+.pond {
+    background-color: #2f8dea;
+}
+
+.river {
+    background-color: #b2d3f4;
+}
+
+
+/*Añadidos*/
+
+.sea {
+    background-color: #052A92;
+}
+
+.flowers {
+    background-color: #BE7FEC;
+}
+
+.tree {
+    background-color: #FCA542;
+}
+
+.flaying {
+    background-color: #9BFFEE;
+}
+
+.ground {
+    background-color: #6FEE7C;
+}
+
+
+/* V I L L A G E R S */
+
+
+/* S H O P S */
+
+
+/* NOOK */
+
+
+/* ABLE SISTERS */
+
+
+/* T O W N   H A L L  */
+
+
+/* M Y   H O M E */
+
+.formu fieldset {
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: #74e0aa;
+}
+
+.formu hr {}
+
+
+/* Carnet Formulario */
+
+.card_net {
+    height: 266px;
+    width: 474px;
+    border: 2px solid green;
+    border-radius: 25px;
+    background-color: #74e0aa;
+    padding: 3px;
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    background-image: url("../bin/w_3.jpg");
+}
+
+.card_net>p {
+    padding: 2px;
+    margin: 5px;
+    text-align: center;
+}
+
+.card_net>img {
+    border: 2px solid green;
+    border-radius: 25px;
+    background-color: #74e0aa;
+}
+
+.carnet_text {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 200px;
+}
+
+.carnet_vil {
+    margin-left: 75px;
+    margin-top: 15px;
+    margin-right: 25px;
+    height: 200px;
+}
+
+.blur {
+    height: 200px;
+    filter: blur(16px);
+}
+
+
+/*MINIMAPA*/
+
+#minimapa {
+    width: 326px;
+    height: 264px;
+    position: fixed;
+    margin-bottom: 1%;
+    margin-left: 81%;
+    bottom: 0;
+    transition: transform .7s;
+    -webkit-transition: .7s;
+}
+
+#minimapa:hover {
+    transform-origin: bottom right;
+    transform: scale(2);
+}
+
+iframe {
+    width: 326px;
+    height: 264px;
+    border-style: solid;
+    border-color: green;
+}
+
+#mapa {
+    margin-top: -132px;
+    margin-left: -163px;
+    transform: scale(0.5);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
