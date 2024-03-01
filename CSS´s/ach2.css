@@ -222,43 +222,16 @@ td {
 
 /*Añadido*/
 
-.uncommon {
-    background-color: #FCF950;
+.tarea {
+    background-color: #65F062; 
 }
 
-.veryrare {
-    background-color: rgb(255, 118, 118);
-}
-
-.pond {
-    background-color: #2f8dea;
+.negrita{
+    background-color: #8BF189;
 }
 
 .river {
-    background-color: #b2d3f4;
-}
-
-
-/*Añadidos*/
-
-.sea {
-    background-color: #052A92;
-}
-
-.flowers {
-    background-color: #BE7FEC;
-}
-
-.tree {
-    background-color: #FCA542;
-}
-
-.flaying {
-    background-color: #9BFFEE;
-}
-
-.ground {
-    background-color: #6FEE7C;
+    background-color: #A2F0A8 ;
 }
 
 
