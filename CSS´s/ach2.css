@@ -142,6 +142,20 @@ nav:link {
     height: 220px;
 }
 
+.card22 {
+    border: 2px solid green;
+    border-radius: 25px;
+    background-color: #dbbf9e;
+    border: 75px #dbbf9e;
+    padding: 8px;
+    margin: 25px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    width: 500px;
+    height: 470px;
+}
+
 .card3 {
     background-color: #dbbf9e;
     border-radius: 30px;
